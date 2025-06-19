@@ -5,6 +5,5 @@ import { App } from './App';
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <App/>
-    <h1>Olá, mundo!</h1>
   </StrictMode>,
 );
