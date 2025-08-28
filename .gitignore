@@ -22,3 +22,24 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Dependências do projeto - NUNCA ENVIE ISSO!
+/node_modules
+
+# Pasta de build/distribuição
+/dist
+/dist-ssr
+
+# Arquivos de variáveis de ambiente (MUITO IMPORTANTE)
+.env
+.env.local
+.env.*.local
+
+# Arquivos de cache e temporários
+.npm
+.eslintcache
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
